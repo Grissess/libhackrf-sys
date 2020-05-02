@@ -1,0 +1,11 @@
+[package]
+name = "libhackrf-sys"
+version = "0.1.0"
+authors = ["Graham Northup <grissess@nexusg.org>"]
+edition = "2018"
+links = "hackrf"
+
+[build-dependencies]
+bindgen = "0.53.2"
+pkg-config = "0.3.17"
+
